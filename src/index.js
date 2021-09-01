@@ -1,10 +1,9 @@
-import LinesEllipsis from './LinesEllipsis.vue';
+import VueLinesEllipsis from './VueLinesEllipsis.vue';
 
 
-const VueLinesEllipsis = {
-  install: function(Vue){
-    Vue.component('LinesEllipsis', LinesEllipsis);
-  }
-};
+VueLinesEllipsis.install = Vue => {
+  Vue.component(VueLinesEllipsis.name, VueLinesEllipsis)
+}
+
 // 导出组件
 export default VueLinesEllipsis;

@@ -2,7 +2,7 @@
   "name": "vue-lines-ellipsis",
   "version": "0.0.1",
   "description": "vue 多行显示省略号组件，兼容各浏览器",
-  "main": "index.js",
+  "main": "dist/VueLinesEllipsis.js",
   "scripts": {
     "build": "rollup -c"
   },
