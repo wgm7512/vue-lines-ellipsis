@@ -1,6 +1,6 @@
 {
   "name": "vue-lines-ellipsis",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "vue 多行显示省略号组件，兼容各浏览器",
   "main": "dist/vue-lines-ellipsis.js",
   "scripts": {
