@@ -44,7 +44,7 @@ export default {
 ```
 
 ### 2. 根据父级高度，最大程度的展示
-![example2](https://github.com/wgm7512/vue-lines-ellipsis/raw/master/images/example2.png)
+![example2](images/example2.png)
 ```vue
 <template>
   <div class="test">
