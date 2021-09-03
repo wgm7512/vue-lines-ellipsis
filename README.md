@@ -44,7 +44,7 @@ export default {
 ```
 
 ### 2. 根据父级高度，最大程度的展示
-![example2](images/example2.png)
+![example2](https://github.com/wgm7512/vue-lines-ellipsis/raw/master/images/example2.png)
 ```vue
 <template>
   <div class="test">
@@ -76,3 +76,10 @@ export default {
 </style>
 
 ```
+
+## API
+|  属性   | 说明  |  类型   | 默认值 |
+|  ----  | ----  | ----  | ----  |
+| text          | 要展示的正文 | String  | ''  |
+| isShowTitle  | 是否展示原生的标签 title 属性 | Boolean  | true  |
+| maxLine | 最大行数 | Number  | 0 |
