@@ -1,8 +1,8 @@
 {
   "name": "vue-lines-ellipsis",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "vue 多行显示省略号组件，兼容各浏览器",
-  "main": "dist/VueLinesEllipsis.js",
+  "main": "dist/vue-lines-ellipsis.js",
   "scripts": {
     "start": "vue serve ./src/Test.vue",
     "build": "rollup -c"
@@ -19,13 +19,15 @@
   },
   "homepage": "https://github.com/wgm7512/vue-lines-ellipsis#readme",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "babel-preset-latest": "^6.24.1",
     "rollup": "^2.56.3",
     "rollup-plugin-clear": "^2.0.7",
-    "rollup-plugin-uglify": "^6.0.4"
+    "rollup-plugin-uglify": "^6.0.4",
+    "rollup-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.14"
   },
   "dependencies": {
-    "@vue/compiler-sfc": "^3.2.6",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-vue": "^6.0.0"
+    "@vue/compiler-sfc": "^3.2.6"
   }
 }
