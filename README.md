@@ -10,7 +10,7 @@ npm install vue-lines-ellipsis
 ### 1. 设置最大行数
 > 设置最大行数时，此时展示与父级元素的高度无关，主要是根据 `line-height` 来计算, 所以请确保设置了 `line-height`;
 
-![example1](images/example1.png)
+![example1](http://ashitaka.blackphh.cn/vue-lines-ellipsis1.png)
 ```vue
 <template>
   <div class="test">
@@ -44,7 +44,7 @@ export default {
 ```
 
 ### 2. 根据父级高度，最大程度的展示
-![example2](images/example2.png)
+![example2](http://ashitaka.blackphh.cn/vue-lines-ellipsis2.png)
 ```vue
 <template>
   <div class="test">
