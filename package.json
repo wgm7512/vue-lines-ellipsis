@@ -1,6 +1,6 @@
 {
   "name": "vue-lines-ellipsis",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "vue 多行显示省略号组件，兼容各浏览器",
   "main": "dist/vue-lines-ellipsis.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "rollup": "^2.56.3",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-clear": "^2.0.7",
-    "rollup-plugin-uglify": "^6.0.4",
+    "rollup-plugin-uglify": "^5.0.0",
     "rollup-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.6.14"
   },
