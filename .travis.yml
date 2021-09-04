@@ -14,11 +14,12 @@ script:
   - echo "npm run building ----"
   - npm run build
 
-
-deploy:
-  provider: npm
-  email: "$NPM_EMAIL"
-  api_key: "$NPM_TOKEN"
-  skip_cleanup: true
-  on:
-    branch: master
+branch:
+  - master
+    deploy:
+      provider: npm
+      email: "$NPM_EMAIL"
+      api_key: "$NPM_TOKEN"
+      skip_cleanup: true
+      on:
+        branch: master
