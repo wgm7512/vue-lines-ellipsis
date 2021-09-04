@@ -1,7 +1,7 @@
 language: node_js
 node_js:
-  - "10"
-  - '15.0.0'
+  - "12.13"
+
 env:
   global:
     - NPM_EMAIL=$EMAIL
@@ -14,12 +14,10 @@ script:
   - echo "npm run building ----"
   - npm run build
 
-branch:
-  - master
-    deploy:
-      provider: npm
-      email: "$NPM_EMAIL"
-      api_key: "$NPM_TOKEN"
-      skip_cleanup: true
-      on:
-        branch: master
+deploy:
+  provider: npm
+  email: "$NPM_EMAIL"
+  api_key: "$NPM_TOKEN"
+  skip_cleanup: true
+  on:
+      branch: production
