@@ -19,9 +19,11 @@
   },
   "homepage": "https://github.com/wgm7512/vue-lines-ellipsis#readme",
   "devDependencies": {
+    "@babel/core": "^7.15.4",
+    "@babel/preset-env": "^7.15.4",
     "@rollup/plugin-commonjs": "^20.0.0",
-    "babel-preset-latest": "^6.24.1",
     "rollup": "^2.56.3",
+    "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-clear": "^2.0.7",
     "rollup-plugin-uglify": "^6.0.4",
     "rollup-plugin-vue": "^5.0.0",

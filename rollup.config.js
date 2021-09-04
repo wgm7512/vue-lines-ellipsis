@@ -1,7 +1,8 @@
 
 import vue from 'rollup-plugin-vue';
 import commonjs from '@rollup/plugin-commonjs';
-import clear from 'rollup-plugin-clear'
+import clear from 'rollup-plugin-clear';
+import babel from 'rollup-plugin-babel';
 import { uglify } from 'rollup-plugin-uglify';
 
 export default {
@@ -11,11 +12,14 @@ export default {
     file: 'dist/vue-lines-ellipsis.js'
   },
   plugins: [
-    vue(),
-    commonjs(),
     clear({
       targets: ['dist'],
       watch: true,
+    }),
+    vue(),
+    commonjs(),
+    babel({
+      exclude: 'node_modules/**' // 只编译我们的源代码
     }),
     // 压缩代码
     uglify(),
